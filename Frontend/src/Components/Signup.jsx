@@ -62,7 +62,7 @@ export const SignUp = () => {
       });
     //   console.log(res)
       let data = await res.json();
-      // console.log(data,"456214521542")
+    
       if(data.message=="Email already exists"||data.message=="undefined"||payload==undefined){
         alert("This Email is alreday in use by another account")
       }else{
