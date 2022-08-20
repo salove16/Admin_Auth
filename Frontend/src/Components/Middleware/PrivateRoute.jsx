@@ -5,7 +5,7 @@ export const PrivateRoute = ({children}) => {
     const [token] = useCookies(["token"]);
     // console.log(token.token.role);
 
-  return token.token.role==='admin' ? children : <Navigate to="" />;
+  return token.token.role==='admin' ? children : <Navigate to="/" />;
 }
 
 
