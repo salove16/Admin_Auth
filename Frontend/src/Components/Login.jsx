@@ -15,7 +15,7 @@ import supplynote_login from "../../assets/img/supplynote_login.png"
 
 import { useState } from "react";
 import { useCookies } from "react-cookie";
-
+import loginImg from '../../assets/img/login.jpg'
 import { Link,useNavigate } from "react-router-dom";
 import { fontSize } from "@mui/system";
 
@@ -80,7 +80,7 @@ export const Login = () => {
   return (
     <div style={{display:'flex',flexDirection:'row'}}>
       <div style={{height:'90%'}}>
-        <img style={{width:"82%"}} src='../../assets/img/login.jpg' alt="" />
+        <img style={{width:"82%"}} src={loginImg} alt="" />
       </div>
       <Container component="main" sx={{ m: 3, mx: "auto" ,flex:1,marginTop:"5%" ,marginRight:"10%"}} maxWidth="sm">
       {/* <Avatar sx={{ width: 100, height: 100, m: 5, mx: "auto" }}>SS</Avatar> */}
