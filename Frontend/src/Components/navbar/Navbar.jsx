@@ -10,7 +10,7 @@ export const Navbar = () => {
   return (
     <div style={{alignItems:'center',display:'flex',justifyContent:'space-between',padding:10,paddingRight:'5%',paddingLeft:'5%',boxShadow:' rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}}>
       <Link  to={"/"}>
-        <img style={{width:125}} src="logo" alt="" />
+        <img style={{width:125}} src={logo} alt="" />
       </Link>
 
       {cookies.token ? (
