@@ -11,6 +11,7 @@ import Paper from '@mui/material/Paper';
 
 export const AdminPanel = () => {
   const [Data, setData] = useState([]);
+  
   useEffect(() => {
     getData();
   }, []);
