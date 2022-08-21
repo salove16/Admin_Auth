@@ -28,3 +28,6 @@ Users can Sign up or log in. And Admin can get all user Signup data to date afte
 Email: ss@gmail.com
 Password: 123456
 ```
+### User SignUp and Login
+
+![user signup and login](./Frontend/assets/gif/userLogin.gif)
