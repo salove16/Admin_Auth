@@ -5,20 +5,20 @@ Users can Sign up or log in. And Admin can get all user Signup data to date afte
 
 ## API Reference
 
-#### Get all items
+#### GET all Users  
 
-```http
-  GET https://brand-and-beyond.herokuapp.com/users/all
 ```
-#### Login end point
-
-```http
-  POST https://brand-and-beyond.herokuapp.com/login
+  https://brand-and-beyond.herokuapp.com/users/all
 ```
-#### Signup end point
+#### POST Login end point
 
-```http
-  POST https://brand-and-beyond.herokuapp.com/signup
+```
+   https://brand-and-beyond.herokuapp.com/login
+```
+#### POST Signup end point
+
+```
+   https://brand-and-beyond.herokuapp.com/signup
 ```
 
 
