@@ -21,6 +21,12 @@ Users can Sign up or log in. And Admin can get all user Signup data to date afte
    https://brand-and-beyond.herokuapp.com/signup
 ```
 
+## User SignUp and Login
+
+![user signup and login](./Frontend/assets/gif/userLogin.gif)
+
+## Admin Login 
+![user signup and login](./Frontend/assets/gif/adminLogin.gif)
 
 ### Admin Credentials 
 
@@ -28,6 +34,3 @@ Users can Sign up or log in. And Admin can get all user Signup data to date afte
 Email: ss@gmail.com
 Password: 123456
 ```
-### User SignUp and Login
-
-![user signup and login](./Frontend/assets/gif/userLogin.gif)
